@@ -1,0 +1,178 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish,mexico]{babel}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{graphicx}
+\usepackage[export]{adjustbox}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{fancyhdr}
+\usepackage{avant}
+\usepackage[T1]{fontenc}
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand*\familydefault{\sfdefault}
+
+\title{Tarea 2}
+\author{Gonzalez Calzada Maximiliano}
+\date{\today}
+
+\begin{document}
+
+    \thispagestyle{empty}
+        
+    \begin{figure}[ht]
+        \minipage{0.16\textwidth}
+            \includegraphics[width=2.2cm]{IPN_Logo.pdf}
+            \label{LogoIPN}
+        \endminipage
+        \hspace{0.60\textwidth}
+        \minipage{0.22\textwidth}
+            \includegraphics[width=3cm]{UPIICSA_Logo.pdf}
+            \label{LogoUPIICSA}
+        \endminipage
+    \end{figure}
+	
+	\begin{center}
+        \vspace{0.8cm}
+        \LARGE
+        \textbf{INSTITUTO POLITÉCNICO NACIONAL}
+        
+        \vspace{0.8cm}
+        \LARGE
+        \textbf{UNIDAD PROFESIONAL INTERDISCIPLINARIA DE INGENIERÍA Y CIENCIAS SOCIALES Y ADMINISTRATIVAS}
+        
+        \vspace{1cm}	
+        \Large
+        \textbf{LICENCIATURA EN INGENIERÍA EN INFORMÁTICA}
+
+        \vspace{1cm}
+        \large	
+        PRESENTAN \\
+        \vspace{.3cm}
+        \normalsize
+        \begin{itemize}
+            \item \textbf{Gonzalez Calzada Maximiliano}
+            \item \textbf{Hernandez Garcia Juan Jose}
+            \item \textbf{Maldonado Martínez Kevin Noel}
+            \item \textbf{Martínez Lagunas Andrik Jeovany}
+            \item \textbf{Muñoz Castro Angel Daniel}
+        \end{itemize}
+        
+        \vspace{0.8cm}
+        \normalsize	
+        DOCENTE \\
+        \vspace{.3cm}
+        \large
+        \textbf{Ortega Avalos Julia Alicia}
+        
+        \vspace{0.8cm}
+        \normalsize	
+        ASIGNATURA \\
+        \vspace{.3cm}
+        \large
+        \textbf{Seguridad Informática}
+
+        \vspace{0.8cm}
+        \normalsize	
+        SECUENCIA \\
+        \vspace{.3cm}
+        \large
+        \textbf{4NM42}
+        
+        \vspace{0.8cm}
+        \today
+	\end{center}
+	
+	\newpage
+	
+    \section{Nombre del proyecto}
+
+    \large
+    "Web API Security Scanner"
+    
+    \section{Objetivo}
+
+    Desarrollar una herramienta que escanee las API web en busca de vulnerabilidades de seguridad, asegurando que sean sólidas contra amenazas comunes y proporcionando recomendaciones de mejora.
+
+    \subsection{Características Clave}
+
+    \begin{itemize}
+        \item \textbf{Detección Automatizada de Vulnerabilidad}: El escáner debe probar automáticamente las API en busca de vulnerabilidades comunes, incluyendo:
+        \begin{itemize}
+            \item \textbf{Defectos de autenticación}: Compruebe si hay mecanismos de autenticación débiles o faltantes (por ejemplo, JWT, OAuth).
+            \item \textbf{Problemas de autorización}: Prueba de control de acceso incorrecto (por ejemplo, usuarios que acceden a los recursos que deberían).
+            \item \textbf{Validación de entrada}: Identifique puntos finales vulnerables a la inyección SQL, secuencias de comandos en sitios cruzados (XSS) e inyección de comandos.
+        \end{itemize}
+        \item \textbf{Limitación de tarifas}: Asegúrese de que las API tengan una limitación de velocidad adecuada para prevenir el abuso (Ataques DDoS).
+        \item \textbf{Exposición a Datos Sensibles}: Compruebe si la información confidencial (como contraseñas, números de tarjetas de crédito) se transmite sin cifrado.
+        \item \textbf{Informes y Recomendaciones}: Después del escaneo, genere un informe detallado que resuma:
+        \begin{itemize}
+            \item Vulnerabilidades detectadas
+            \item Niveles de riesgo (alto, medio, bajo)
+            \item Pasos de remediación sugeridos o mejores prácticas.
+        \end{itemize}
+        \item \textbf{Interfaz amigable para el usuario}: Cree una interfaz de usuario simple que permita a los usuarios ingresar puntos finales y configuraciones de API fácilmente.
+    \end{itemize}
+
+    \subsection{Pasos de Implementación}
+
+    \begin{enumerate}
+        \item \textbf{Research Common API Vulnerabilities}: Familiarícese con OWASP API Security Top Ten y otras pautas de seguridad relevantes.
+        \item \textbf{Elija un Lenguaje/Marco de Programación}: Seleccione un idioma (como Python o JavaScript) y un marco adecuado para construir el escáner.
+        \item \textbf{Desarrolle Core Scanning Logic}: Implemente módulos para cada tipo de vulnerabilidad, aprovechando bibliotecas o herramientas cuando corresponda (por ejemplo, OWASP ZAP para integración).
+        \item \textbf{Construir la interfaz de usuario}: Cree una interfaz web o de línea de comandos que permita a los usuarios ingresar sus detalles de API e iniciar escaneos.
+        \item \textbf{Pruebas}: Pruebe el escáner contra API vulnerables conocidas para asegurarse de que detecta con precisión las vulnerabilidades.
+        \item \textbf{Documentación}: Escriba documentación clara para los usuarios sobre cómo usar la herramienta e interpretar los resultados.
+    \end{enumerate}
+    
+    \section{Alcance}
+
+    \subsection{Cobertura de Seguridad:}
+    \begin{itemize}
+        \item \textbf{Autenticación y Autorización}: Revisar las configuraciones de autenticación (JWT, OAuth) y control de acceso.
+        \item \textbf{Validación de Entrada}: Identificar vulnerabilidades de inyección (SQL, XSS, comandos).
+        \item \textbf{Limitación de Tarifas y Exposición de Datos Sensibles}: Comprobar la limitación de tasa para evitar abusos y verificar si se transmiten datos sensibles sin cifrado.
+        \item \textbf{Detección de Amenazas Comunes}: Enfocarse en las vulnerabilidades descritas en el OWASP API Security Top Ten.
+    \end{itemize}
+
+    \subsection{Límites del Proyecto:}
+    \begin{itemize}
+        \item \textbf{Exclusiones}: La herramienta no se enfocará en realizar pruebas de rendimiento o funcionalidad de la API; su único enfoque será la seguridad.
+        \item \textbf{Limitaciones Técnicas}: El alcance inicial del proyecto no incluirá integración avanzada con sistemas de terceros para generación de reportes o monitoreo, aunque esta funcionalidad podría considerarse en versiones futuras.
+    \end{itemize}
+
+    \section{Justificación}
+
+    En la actualidad, las API son fundamentales para el funcionamiento de aplicaciones modernas, permitiendo la comunicación entre diferentes sistemas y servicios. Con el aumento de su uso, también ha crecido la superficie de ataque, haciendo que la seguridad de las API sea una prioridad. A continuación se detallan las razones que apoyan la necesidad de un escáner de seguridad para APIs web:
+
+    \begin{itemize}
+        \item \textbf{Creciente Dependencia de APIs}: Con la propagación de arquitecturas basadas en microservicios y el uso extensivo de servicios web, las APIs se han convertido en un punto de entrada crucial para las aplicaciones. Esto las convierte en un objetivo atractivo para los atacantes.
+        \item \textbf{Vulnerabilidades Comunes}: Existen vulnerabilidades comunes en las APIs, como las descritas en el OWASP API Security Top Ten. Un escáner automatizado puede ayudar a identificar y mitigar estas vulnerabilidades antes de que sean explotadas.
+        \item \textbf{Automatización y Eficiencia}: Realizar análisis de seguridad manualmente es intensivo en tiempo y recursos. Una herramienta automatizada permite escanear múltiples APIs de forma eficiente, liberando a los equipos de seguridad para que se concentren en análisis más profundos y en la remediación de problemas detectados.
+        \item \textbf{Mejora Continua en la Seguridad}: La generación de informes detallados con recomendaciones proporciona a los desarrolladores y equipos de seguridad una guía para mejorar continuamente la postura de seguridad de sus APIs.
+        \item \textbf{Educación y Conciencia}: Incluir una interfaz amigable y documentación clara no solo hace que la herramienta sea accesible, sino que también educa a los usuarios sobre las prácticas de seguridad y la importancia de proteger sus APIs.
+        \item \textbf{Cumplimiento Normativo}: Muchas organizaciones están sujetas a regulaciones que exigen la implementación de prácticas de seguridad adecuadas. Un escáner de seguridad puede ayudar a demostrar el cumplimiento de estas normativas.
+        \item \textbf{Proactividad ante Amenazas}: La herramienta no solo identificará vulnerabilidades ya existentes, sino que también puede servir como un medio proactivo para detectar configuraciones inseguras y prácticas deficientes en la implementación de APIs.
+    \end{itemize}
+
+    \section{Marco teórico}
+
+    \subsection{Introducción a las APIs Web}
+    \textbf{Definición}: Las APIs (Interfaz de Programación de Aplicaciones) permiten que diferentes aplicaciones se comuniquen entre sí. Son cruciales en la arquitectura de software moderna, especialmente en aplicaciones web y móviles.
+
+    \textbf{Importancia}: Facilitan la integración y la interoperabilidad, pero también presentan riesgos de seguridad que deben ser gestionados adecuadamente.
+
+    \subsection{Amenazas Comunes a las APIs}
+    \begin{itemize}
+        \item \textbf{Inyección SQL}: Permite a los atacantes ejecutar consultas maliciosas en la base de datos.
+        \item \textbf{XSS}: Aprovecha la confianza del navegador en las API para ejecutar código en el contexto de un usuario.
+        \item \textbf{Falsificación de solicitudes entre sitios (CSRF)}: Permite a un atacante hacer solicitudes en nombre de un usuario autenticado.
+        \item \textbf{Desbordamiento de datos}: Implica enviar un volumen alto de datos a la API con el objetivo de desestabilizar o hacerla inaccesible.
+    \end{itemize}
+
+    \section{Planeación}
+    \section{Planteamiento de la solución}
+
+\end{document}
+
