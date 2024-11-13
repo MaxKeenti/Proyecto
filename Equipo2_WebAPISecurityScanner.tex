@@ -93,39 +93,8 @@
     
     \section{Objetivo}
 
-    Desarrollar una herramienta que escanee las API web en busca de vulnerabilidades de seguridad, asegurando que sean sólidas contra amenazas comunes y proporcionando recomendaciones de mejora.
+    Desarrollar una herramienta que escanee las API web en busca de vulnerabilidades de seguridad, asegurando que sean sólidas contra amenazas comunes y proporcionando recomendaciones de mejora. Puede ayudar a demostrar el cumplimiento de es- tas normativas. La herramienta no solo identificará vulnerabilidades ya existentes, sino que también puede servir como un medio proactivo para detectar configuraciones inseguras y prácticas deficientes en la implementación de APIs.
 
-    \subsection{Características Clave}
-
-    \begin{itemize}
-        \item \textbf{Detección Automatizada de Vulnerabilidad}: El escáner debe probar automáticamente las API en busca de vulnerabilidades comunes, incluyendo:
-        \begin{itemize}
-            \item \textbf{Defectos de autenticación}: Compruebe si hay mecanismos de autenticación débiles o faltantes (por ejemplo, JWT, OAuth).
-            \item \textbf{Problemas de autorización}: Prueba de control de acceso incorrecto (por ejemplo, usuarios que acceden a los recursos que deberían).
-            \item \textbf{Validación de entrada}: Identifique puntos finales vulnerables a la inyección SQL, secuencias de comandos en sitios cruzados (XSS) e inyección de comandos.
-        \end{itemize}
-        \item \textbf{Limitación de tarifas}: Asegúrese de que las API tengan una limitación de velocidad adecuada para prevenir el abuso (Ataques DDoS).
-        \item \textbf{Exposición a Datos Sensibles}: Compruebe si la información confidencial (como contraseñas, números de tarjetas de crédito) se transmite sin cifrado.
-        \item \textbf{Informes y Recomendaciones}: Después del escaneo, genere un informe detallado que resuma:
-        \begin{itemize}
-            \item Vulnerabilidades detectadas
-            \item Niveles de riesgo (alto, medio, bajo)
-            \item Pasos de remediación sugeridos o mejores prácticas.
-        \end{itemize}
-        \item \textbf{Interfaz amigable para el usuario}: Cree una interfaz de usuario simple que permita a los usuarios ingresar puntos finales y configuraciones de API fácilmente.
-    \end{itemize}
-
-    \subsection{Pasos de Implementación}
-
-    \begin{enumerate}
-        \item \textbf{Research Common API Vulnerabilities}: Familiarícese con OWASP API Security Top Ten y otras pautas de seguridad relevantes.
-        \item \textbf{Elija un Lenguaje/Marco de Programación}: Seleccione un idioma (como Python o JavaScript) y un marco adecuado para construir el escáner.
-        \item \textbf{Desarrolle Core Scanning Logic}: Implemente módulos para cada tipo de vulnerabilidad, aprovechando bibliotecas o herramientas cuando corresponda (por ejemplo, OWASP ZAP para integración).
-        \item \textbf{Construir la interfaz de usuario}: Cree una interfaz web o de línea de comandos que permita a los usuarios ingresar sus detalles de API e iniciar escaneos.
-        \item \textbf{Pruebas}: Pruebe el escáner contra API vulnerables conocidas para asegurarse de que detecta con precisión las vulnerabilidades.
-        \item \textbf{Documentación}: Escriba documentación clara para los usuarios sobre cómo usar la herramienta e interpretar los resultados.
-    \end{enumerate}
-    
     \section{Alcance}
 
     \subsection{Cobertura de Seguridad:}
@@ -153,15 +122,26 @@
         \item \textbf{Mejora Continua en la Seguridad}: La generación de informes detallados con recomendaciones proporciona a los desarrolladores y equipos de seguridad una guía para mejorar continuamente la postura de seguridad de sus APIs.
         \item \textbf{Educación y Conciencia}: Incluir una interfaz amigable y documentación clara no solo hace que la herramienta sea accesible, sino que también educa a los usuarios sobre las prácticas de seguridad y la importancia de proteger sus APIs.
         \item \textbf{Cumplimiento Normativo}: Muchas organizaciones están sujetas a regulaciones que exigen la implementación de prácticas de seguridad adecuadas. Un escáner de seguridad puede ayudar a demostrar el cumplimiento de estas normativas.
-        \item \textbf{Proactividad ante Amenazas}: La herramienta no solo identificará vulnerabilidades ya existentes, sino que también puede servir como un medio proactivo para detectar configuraciones inseguras y prácticas deficientes en la implementación de APIs.
+        \item \textbf{Proactividad ante Amenazas}: La herramienta no solo identificará vulnerabilidades ya existentes, sino que también puede servir como un medio proactivo para detectar configuraciones inseguras y prácticas deficientes en la implementación de APIs. Adoptar un enfoque proactivo en la seguridad permite que las empresas se anticipen a posibles ataques y mantengan su infraestructura más segura.
     \end{itemize}
 
     \section{Marco teórico}
 
     \subsection{Introducción a las APIs Web}
-    \textbf{Definición}: Las APIs (Interfaz de Programación de Aplicaciones) permiten que diferentes aplicaciones se comuniquen entre sí. Son cruciales en la arquitectura de software moderna, especialmente en aplicaciones web y móviles.
+    \subsubsection{Definición}
+    Las APIs (Interfaz de Programación de Aplicaciones) permiten que diferentes aplicaciones se comuniquen entre sí. Son cruciales en la arquitectura de software moderna, especialmente en aplicaciones web y móviles. Son mecanismos que permiten que diferentes aplicaciones y sistemas intercambien datos y funciones entre sí. Son esenciales en el entorno digital actual, especialmente en aplicaciones web y móviles, donde facilitan la interoperabilidad y la integración de diversas funcionalidades. Las APIs son la columna vertebral de arquitecturas modernas como los microservicios, permitiendo que distintos componentes de software se comuniquen y trabajen juntos sin estar directamente acoplados.
 
-    \textbf{Importancia}: Facilitan la integración y la interoperabilidad, pero también presentan riesgos de seguridad que deben ser gestionados adecuadamente.
+    \subsubsection{Importancia}
+    Facilitan la integración y la interoperabilidad, pero también presentan riesgos de seguridad que deben ser gestionados adecuadamente. La popularidad de las APIs ha crecido junto con el uso de servicios en la nube, lo que ha incrementado su papel en las estrategias de negocio de las organizaciones. Sin embargo, esta integración trae consigo importantes riesgos de seguridad, ya que las APIs se exponen frecuentemente a redes públicas, convirtiéndolas en un blanco atractivo para atacantes. Una API sin las medidas de seguridad adecuadas puede ser la puerta de entrada para amenazas que afecten la integridad, confidencialidad y disponibilidad de los sistemas empresariales. La seguridad en las APIs implica implementar mecanismos de autenticación, autorización, validación de datos y monitoreo constante para mitigar estos riesgos.
+
+    \subsection{La Seguridad Informática Relacionados con las APIs}
+    En el contexto de seguridad informática, existen varios subtemas clave que se aplican específicamente a la seguridad de APIs:
+
+    \begin{itemize}
+        \item \textbf{Autenticación y Autorización}: La autenticación asegura que solo usuarios válidos accedan a una API, mientras que la autorización define los permisos y el nivel de acceso que cada usuario posee. Los estándares como OAuth 2.0 y JWT (JSON Web Tokens) son ampliamente utilizados en la autenticación de APIs para proporcionar acceso controlado y seguro.
+        \item \textbf{Integridad de Datos}: Este principio garantiza que la información transmitida a través de la API no sea alterada durante el tránsito. La integridad de datos puede asegurarse mediante el uso de protocolos como HTTPS y el cifrado de datos sensibles, evitando ataques que alteren la información durante su transmisión.
+        \item \textbf{Monitoreo y Registro}: Es fundamental registrar y monitorear las actividades dentro de una API para detectar comportamientos anómalos que puedan ser indicativos de intentos de ataque. Herramientas como los sistemas de detección de intrusiones (IDS) pueden integrarse para alertar sobre accesos inusuales o patrones de solicitudes sospechosas.
+    \end{itemize}
 
     \subsection{Amenazas Comunes a las APIs}
     \begin{itemize}
@@ -171,8 +151,35 @@
         \item \textbf{Desbordamiento de datos}: Implica enviar un volumen alto de datos a la API con el objetivo de desestabilizar o hacerla inaccesible.
     \end{itemize}
 
-    \section{Planeación}
+    \subsection{OWASP y la Seguridad en APIs}
+    El Open Web Application Security Project (OWASP) ha publicado una lista de los diez riesgos principales para la seguridad de APIs, conocida como OWASP API Security Top Ten. Este listado destaca vulnerabilidades comunes como la autenticación rota, la exposición excesiva de datos y la falta de limitación de tasas. La guía OWASP es una referencia fundamental en el desarrollo seguro de APIs, ya que proporciona recomendaciones prácticas para abordar las amenazas de seguridad más relevantes en entornos de API.
+
+    \subsection{La Seguridad en APIs en el Contexto Empresarial}
+    Las empresas de sectores como finanzas, salud y comercio electrónico dependen cada vez más de las APIs para optimizar operaciones, gestionar datos y facilitar la integración con terceros. Sin embargo, según un informe de Akamai, el 78\% de las organizaciones han experimentado incidentes de seguridad relacionados con APIs en el último año. Además, las vulnerabilidades en APIs pueden ocasionar pérdidas anuales de hasta 87 mil millones de dólares, según Businesswire. Por lo tanto, asegurar estas interfaces se convierte en una prioridad no solo para proteger los activos digitales y la información confidencial, sino también para cumplir con normativas y regulaciones de seguridad.
+
+    \subsection{Estrategias de seguridad para las APIs}
+    Implementar estrategias de seguridad en APIs implica un enfoque multidimensional que incluye las siguientes prácticas:
+
+    \begin{itemize}
+        \item \textbf{Autenticación y Autorización Fortalecidas}: Usar autenticación multifactor y revisar permisos con regularidad.
+        \item \textbf{Limitación de Tasas (Rate Limiting)}: Restringir el número de solicitudes permitidas en un tiempo determinado para evitar ataques de denegación de servicio (DoS).
+        \item \textbf{Validación de Datos y Filtrado de Entradas}: Validar los datos que ingresan a la API para evitar inyecciones maliciosas.
+        \item \textbf{Cifrado de Comunicación}: Usar HTTPS para garantizar que los datos en tránsito estén protegidos contra interceptaciones.
+    \end{itemize}
+
     \section{Planteamiento de la solución}
+
+    \begin{itemize}
+        \item \textbf{Identificación de Amenazas Comunes en APIs}: Revise el OWASP API Security Top Ten y otras normativas de seguridad para reconocer las vulnerabilidades más frecuentes en APIs.
+        \item \textbf{Selección de Herramientas y Lenguaje de Programación}: Escoja un lenguaje adecuado (por ejemplo, Python o JavaScript) y herramientas de escaneo de seguridad (como OWASP ZAP o Burp Suite) que se integren efectivamente para identificar y mitigar riesgos.
+        \item \textbf{Desarrollo de Módulos de Seguridad}: Implemente módulos específicos para detectar vulnerabilidades, como autenticación, autorización, inyección de SQL, XSS, y otros. Cada módulo debe ser capaz de realizar pruebas automatizadas y reportar sus hallazgos.
+        \item \textbf{Diseño de la Interfaz de Usuario}: Cree una interfaz intuitiva, ya sea web o en línea de comandos, que permita a los usuarios configurar las API a escanear, seleccionar parámetros y monitorear el progreso de los escaneos.
+        \item \textbf{Implementación de Monitoreo y Alerta}: Configure un sistema de monitoreo y alertas en tiempo real para detectar actividad sospechosa y registrar logs detallados de cada interacción de la API.
+        \item \textbf{Pruebas de Seguridad Automatizadas}: Realice pruebas automatizadas y pruebas de penetración en entornos controlados, usando datos simulados para verificar la capacidad de detección y respuesta ante ataques.
+        \item \textbf{Documentación y Capacitación}: Desarrolle documentación clara y detallada sobre cómo usar la herramienta, interpretando resultados y aplicando recomendaciones de seguridad. Incluya guías prácticas para el equipo de desarrollo y personal de seguridad.
+        \item \textbf{Mantenimiento y Actualización Continua}: Programe revisiones y actualizaciones regulares de la herramienta para garantizar que se mantenga al día con nuevas vulnerabilidades y mejoras de seguridad en APIs.        
+    \end{itemize}
+    \section{Planeación}
 
 \end{document}
 

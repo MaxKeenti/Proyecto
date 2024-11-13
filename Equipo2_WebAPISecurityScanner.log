@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.9)  12 NOV 2024 11:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.9)  13 NOV 2024 11:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -168,7 +168,10 @@ File: t1pag.fd 2001/06/04 font definitions for T1/pag.
 File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count275
 \l__pdf_internal_box=\box53
-) (./Equipo2_WebAPISecurityScanner.aux)
+) (./Equipo2_WebAPISecurityScanner.aux
+LaTeX Info: Redefining \. on input line 6.
+LaTeX Info: Redefining \% on input line 6.
+)
 \openout1 = `Equipo2_WebAPISecurityScanner.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
@@ -264,24 +267,64 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
+<IPN_Logo.pdf, id=1, 100.375pt x 172.645pt>
+File: IPN_Logo.pdf Graphic file (type pdf)
+<use IPN_Logo.pdf>
+Package pdftex.def Info: IPN_Logo.pdf  used on input line 26.
+(pdftex.def)             Requested size: 62.59596pt x 107.66838pt.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 28.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 28.
+<UPIICSA_Logo.pdf, id=2, 136.51pt x 172.645pt>
+File: UPIICSA_Logo.pdf Graphic file (type pdf)
+<use UPIICSA_Logo.pdf>
+Package pdftex.def Info: UPIICSA_Logo.pdf  used on input line 31.
+(pdftex.def)             Requested size: 85.35826pt x 107.9529pt.
+LaTeX Font Info:    Font shape `T1/pag/b/n' in size <17.28> not available
+(Font)              Font shape `T1/pag/db/n' tried instead on input line 39.
+LaTeX Font Info:    Font shape `T1/pag/b/n' in size <14.4> not available
+(Font)              Font shape `T1/pag/db/n' tried instead on input line 47.
+LaTeX Font Info:    Font shape `T1/pag/b/n' in size <10> not available
+(Font)              Font shape `T1/pag/db/n' tried instead on input line 55.
+LaTeX Font Info:    Font shape `T1/pag/b/n' in size <12> not available
+(Font)              Font shape `T1/pag/db/n' tried instead on input line 67.
+ [1
 
-/Users/maximilianogonzalezcalzada/Library/CloudStorage/OneDrive-InstitutoPolitecnicoNacional/UPIICSA Trabajos/Plan 2021/2025 1/Seguridad informatica/Proyecto/Equipo2_WebAPISecurityScanner.tex:26: I can't write on file `Equipo2_WebAPISecurityScanner.pdf'.
-(Press Enter to retry, or Control-D to exit; default file extension is `.pdf')
-Please type another file name for output
-/Users/maximilianogonzalezcalzada/Library/CloudStorage/OneDrive-InstitutoPolitecnicoNacional/UPIICSA Trabajos/Plan 2021/2025 1/Seguridad informatica/Proyecto/Equipo2_WebAPISecurityScanner.tex:26: Emergency stop.
-<argument> \pdfximage 
-                      \ifnum 0\ifx \Gin@decode \@empty \else 1\fi \ifGin@int...
-l.26 ...includegraphics[width=2.2cm]{IPN_Logo.pdf}
-                                                  
-*** (job aborted, file error in nonstop mode)
+{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc} <./IPN_Logo.pdf> <./UPIICSA_Logo.pdf>] [2] [3] [4]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 158.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 158.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 158.
+ [5]
+Overfull \hbox (3.02444pt too wide) in paragraph at lines 178--179
+[]\T1/pag/db/n/12 Pruebas de Se-gu-ri-dad Au-to-ma-ti-za-das\T1/pag/m/n/12 : Reali-ce prue-bas au-to-ma-ti-za-das y prue-
+ []
 
- 
+[6] (./Equipo2_WebAPISecurityScanner.aux
+LaTeX Info: Redefining \. on input line 6.
+LaTeX Info: Redefining \% on input line 6.
+)
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-02-20>
+ ***********
+ ) 
 Here is how much of TeX's memory you used:
- 6740 strings out of 474116
- 116767 string characters out of 5743683
- 1925187 words of memory out of 5000000
- 29035 multiletter control sequences out of 15000+600000
- 560643 words of font info for 38 fonts, out of 8000000 for 9000
+ 6817 strings out of 474116
+ 118005 string characters out of 5743683
+ 1937187 words of memory out of 5000000
+ 29092 multiletter control sequences out of 15000+600000
+ 583146 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,4n,117p,426b,365s stack positions out of 10000i,1000n,20000p,200000b,200000s
-/Users/maximilianogonzalezcalzada/Library/CloudStorage/OneDrive-InstitutoPolitecnicoNacional/UPIICSA Trabajos/Plan 2021/2025 1/Seguridad informatica/Proyecto/Equipo2_WebAPISecurityScanner.tex:26:  ==> Fatal error occurred, no output PDF file produced!
+ 69i,11n,117p,1059b,365s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2024/texmf-dist/fonts/type1/urw/avantgar/uagd8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/avantgar/uagk8a.pfb>
+Output written on Equipo2_WebAPISecurityScanner.pdf (6 pages, 107557 bytes).
+PDF statistics:
+ 50 PDF objects out of 1000 (max. 8388607)
+ 29 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+
