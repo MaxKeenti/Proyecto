@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.9)  25 NOV 2024 10:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.9)  25 NOV 2024 10:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -382,20 +382,20 @@ Package pdftex.def Info: Planeacion.pdf , page1 used on input line 199.
 File: Planeacion.pdf Graphic file (type pdf)
 <use Planeacion.pdf, page 1>
 Package pdftex.def Info: Planeacion.pdf , page1 used on input line 199.
-(pdftex.def)             Requested size: 615.04005pt x 475.25821pt.
+(pdftex.def)             Requested size: 795.3441pt x 614.58406pt.
  [8]
 File: Planeacion.pdf Graphic file (type pdf)
 <use Planeacion.pdf, page 1>
 Package pdftex.def Info: Planeacion.pdf , page1 used on input line 199.
-(pdftex.def)             Requested size: 615.04005pt x 475.25821pt.
+(pdftex.def)             Requested size: 795.3441pt x 614.58406pt.
 File: Planeacion.pdf Graphic file (type pdf)
 <use Planeacion.pdf, page 1>
 Package pdftex.def Info: Planeacion.pdf , page1 used on input line 199.
-(pdftex.def)             Requested size: 615.04005pt x 475.25821pt.
+(pdftex.def)             Requested size: 795.3441pt x 614.58406pt.
 File: Planeacion.pdf Graphic file (type pdf)
 <use Planeacion.pdf, page 1>
 Package pdftex.def Info: Planeacion.pdf , page1 used on input line 199.
-(pdftex.def)             Requested size: 615.04005pt x 475.25821pt.
+(pdftex.def)             Requested size: 795.3441pt x 614.58406pt.
  [9
 
  <./Planeacion.pdf>] (./Equipo2_WebAPISecurityScanner.aux
@@ -414,9 +414,9 @@ Here is how much of TeX's memory you used:
  29950 multiletter control sequences out of 15000+600000
  580410 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,17n,117p,1059b,518s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 69i,17n,117p,1059b,525s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/urw/avantgar/uagd8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/avantgar/uagk8a.pfb>
-Output written on Equipo2_WebAPISecurityScanner.pdf (9 pages, 182383 bytes).
+Output written on Equipo2_WebAPISecurityScanner.pdf (9 pages, 182401 bytes).
 PDF statistics:
  95 PDF objects out of 1000 (max. 8388607)
  55 compressed objects within 1 object stream
