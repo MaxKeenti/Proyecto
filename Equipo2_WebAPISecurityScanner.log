@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.9)  13 NOV 2024 11:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.9)  25 NOV 2024 10:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -286,24 +286,12 @@ LaTeX Font Info:    Font shape `T1/pag/b/n' in size <17.28> not available
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <14.4> not available
 (Font)              Font shape `T1/pag/db/n' tried instead on input line 47.
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <10> not available
-(Font)              Font shape `T1/pag/db/n' tried instead on input line 55.
+(Font)              Font shape `T1/pag/db/n' tried instead on input line 59.
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <12> not available
-(Font)              Font shape `T1/pag/db/n' tried instead on input line 67.
+(Font)              Font shape `T1/pag/db/n' tried instead on input line 71.
  [1
 
-{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc} <./IPN_Logo.pdf> <./UPIICSA_Logo.pdf>] [2] [3] [4]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 158.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 158.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 158.
- [5]
-Overfull \hbox (3.02444pt too wide) in paragraph at lines 178--179
-[]\T1/pag/db/n/12 Pruebas de Se-gu-ri-dad Au-to-ma-ti-za-das\T1/pag/m/n/12 : Reali-ce prue-bas au-to-ma-ti-za-das y prue-
- []
-
-[6] (./Equipo2_WebAPISecurityScanner.aux
+{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc} <./IPN_Logo.pdf> <./UPIICSA_Logo.pdf>] [2] [3] [4] [5] [6] (./Equipo2_WebAPISecurityScanner.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 )
@@ -313,15 +301,15 @@ L3 programming layer <2024-02-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 6817 strings out of 474116
- 118005 string characters out of 5743683
- 1937187 words of memory out of 5000000
- 29092 multiletter control sequences out of 15000+600000
- 583146 words of font info for 60 fonts, out of 8000000 for 9000
+ 6797 strings out of 474116
+ 117803 string characters out of 5743683
+ 1938187 words of memory out of 5000000
+ 29080 multiletter control sequences out of 15000+600000
+ 580410 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  69i,11n,117p,1059b,365s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/urw/avantgar/uagd8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/avantgar/uagk8a.pfb>
-Output written on Equipo2_WebAPISecurityScanner.pdf (6 pages, 107557 bytes).
+Output written on Equipo2_WebAPISecurityScanner.pdf (6 pages, 109929 bytes).
 PDF statistics:
  50 PDF objects out of 1000 (max. 8388607)
  29 compressed objects within 1 object stream
