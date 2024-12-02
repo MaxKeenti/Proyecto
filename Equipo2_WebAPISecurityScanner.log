@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.9)  2 DEC 2024 11:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.9)  2 DEC 2024 12:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -324,35 +324,46 @@ LaTeX Font Info:    Font shape `T1/pag/b/n' in size <17.28> not available
 (Font)              Font shape `T1/pag/db/n' tried instead on input line 40.
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <14.4> not available
 (Font)              Font shape `T1/pag/db/n' tried instead on input line 48.
-LaTeX Font Info:    Font shape `T1/pag/b/n' in size <10> not available
-(Font)              Font shape `T1/pag/db/n' tried instead on input line 60.
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <12> not available
-(Font)              Font shape `T1/pag/db/n' tried instead on input line 72.
+(Font)              Font shape `T1/pag/db/n' tried instead on input line 58.
+LaTeX Font Info:    Font shape `T1/pag/b/n' in size <10> not available
+(Font)              Font shape `T1/pag/db/n' tried instead on input line 64.
  [1
 
 {/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc} <./IPN_Logo.pdf> <./UPIICSA_Logo.pdf>] [2] [3] [4] [5]
-<Figura1.png, id=36, 273.02pt x 957.5775pt>
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 164.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 164.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 164.
+ [6]
+Overfull \hbox (3.02444pt too wide) in paragraph at lines 185--186
+[]\T1/pag/db/n/12 Pruebas de Se-gu-ri-dad Au-to-ma-ti-za-das\T1/pag/m/n/12 : Reali-ce prue-bas au-to-ma-ti-za-das y prue-
+ []
+
+<Figura1.png, id=39, 273.02pt x 957.5775pt>
 File: Figura1.png Graphic file (type png)
 <use Figura1.png>
-Package pdftex.def Info: Figura1.png  used on input line 198.
+Package pdftex.def Info: Figura1.png  used on input line 190.
 (pdftex.def)             Requested size: 134.58499pt x 472.03123pt.
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 198--199
+Overfull \hbox (15.0pt too wide) in paragraph at lines 190--191
 [][] 
  []
 
-[6]
-<Figura2.png, id=41, 1656.1875pt x 811.03pt>
+[7]
+<Figura2.png, id=45, 1656.1875pt x 811.03pt>
 File: Figura2.png Graphic file (type png)
 <use Figura2.png>
-Package pdftex.def Info: Figura2.png  used on input line 200.
+Package pdftex.def Info: Figura2.png  used on input line 192.
 (pdftex.def)             Requested size: 377.62642pt x 184.92418pt.
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 200--201
+Overfull \hbox (15.0pt too wide) in paragraph at lines 192--193
 [][] 
  []
 
-[7 <./Figura1.png>] [8 <./Figura2.png>] [9] (./Equipo2_WebAPISecurityScanner.aux
+[8 <./Figura1.png>] [9 <./Figura2.png>] [10] (./Equipo2_WebAPISecurityScanner.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 )
@@ -362,18 +373,18 @@ L3 programming layer <2024-02-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 7667 strings out of 474116
- 130231 string characters out of 5743683
- 1938187 words of memory out of 5000000
- 29941 multiletter control sequences out of 15000+600000
- 580410 words of font info for 51 fonts, out of 8000000 for 9000
+ 7684 strings out of 474116
+ 130390 string characters out of 5743683
+ 1937187 words of memory out of 5000000
+ 29950 multiletter control sequences out of 15000+600000
+ 583146 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  69i,11n,117p,1059b,365s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/urw/avantgar/uagd8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/avantgar/uagk8a.pfb>
-Output written on Equipo2_WebAPISecurityScanner.pdf (9 pages, 646211 bytes).
+Output written on Equipo2_WebAPISecurityScanner.pdf (10 pages, 646876 bytes).
 PDF statistics:
- 66 PDF objects out of 1000 (max. 8388607)
- 38 compressed objects within 1 object stream
+ 69 PDF objects out of 1000 (max. 8388607)
+ 40 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
