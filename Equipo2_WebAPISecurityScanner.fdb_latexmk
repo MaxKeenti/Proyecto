@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1733165237.87172 "/Users/maximilianogonzalezcalzada/Library/CloudStorage/OneDrive-InstitutoPolitecnicoNacional/UPIICSA Trabajos/Plan 2021/2025 1/Seguridad informatica/Proyecto/Equipo2_WebAPISecurityScanner.tex" "Equipo2_WebAPISecurityScanner.pdf" "Equipo2_WebAPISecurityScanner" 1733165238.97429 0
-  "/Users/maximilianogonzalezcalzada/Library/CloudStorage/OneDrive-InstitutoPolitecnicoNacional/UPIICSA Trabajos/Plan 2021/2025 1/Seguridad informatica/Proyecto/Equipo2_WebAPISecurityScanner.tex" 1733165237.65964 20433 cbf2537a03bfdc4053b3f34b8b05e717 ""
+["pdflatex"] 1733286264.77462 "/Users/maximilianogonzalezcalzada/Library/CloudStorage/OneDrive-InstitutoPolitecnicoNacional/UPIICSA Trabajos/Plan 2021/2025 1/Seguridad informatica/Proyecto/Equipo2_WebAPISecurityScanner.tex" "Equipo2_WebAPISecurityScanner.pdf" "Equipo2_WebAPISecurityScanner" 1733286265.83298 0
+  "/Users/maximilianogonzalezcalzada/Library/CloudStorage/OneDrive-InstitutoPolitecnicoNacional/UPIICSA Trabajos/Plan 2021/2025 1/Seguridad informatica/Proyecto/Equipo2_WebAPISecurityScanner.tex" 1733286263.39506 23711 e9e6566e137e21e10fa2df6d6dca4f4c ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/avantgar/pagd8r.tfm" 1136768653 4840 6a894dde946186de9a64269f0edd24e5 ""
@@ -74,8 +74,16 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1725905763.47618 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1725905724 8221427 305ba4660c895794ae863d7b19185bee ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "Equipo2_WebAPISecurityScanner.aux" 1733165238.94198 3096 25a559ddb44eb04032b340ac78e8f34f "pdflatex"
-  "Equipo2_WebAPISecurityScanner.tex" 1733165237.65964 20433 cbf2537a03bfdc4053b3f34b8b05e717 ""
+  "Demo1.jpg" 1733276782 49511 f3af8da8d376c0f33f22b6b2a54bc7ca ""
+  "Demo2.jpg" 1733276782 23408 f5f1b02fb517c87d0274fc00e2a4f439 ""
+  "Demo3.jpg" 1733276782 45296 7bb92c0c1d7c8aa086ab56a0bad17eac ""
+  "Demo4.jpg" 1733276782 36959 9a8bd61bb63f4ff084efc4dd2ed38431 ""
+  "Demo5.jpg" 1733276782 23858 c48312f1ec88c39946125b4f2cb87cc0 ""
+  "Demo6.jpg" 1733276782 33595 2ad6b0cedd1a4cef676d1c2727716fa4 ""
+  "Demo7.jpg" 1733276782 22855 972fd94e815cc5763d5afb299b7c28d6 ""
+  "Demo8.jpg" 1733276782 27526 ac30c11a49cb5365f3e77353618fe193 ""
+  "Equipo2_WebAPISecurityScanner.aux" 1733286265.79887 3223 d1b2a05a304dfb267b9b41c4d06d07ce "pdflatex"
+  "Equipo2_WebAPISecurityScanner.tex" 1733286263.39506 23711 e9e6566e137e21e10fa2df6d6dca4f4c ""
   "Figura1.png" 1733068185.33656 108398 21d4a62e0131ddbc0331792992617dfc ""
   "Figura2.png" 1733159994.86457 769058 fbc21a79927bba866e48a73a4546253e ""
   "IPN_Logo.pdf" 1729480937.40688 21625 723cef00b03aea51cd67f9437a78ce3a ""

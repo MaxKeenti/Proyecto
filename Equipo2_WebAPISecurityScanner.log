@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.9)  2 DEC 2024 12:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.9)  3 DEC 2024 22:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -363,7 +363,48 @@ Overfull \hbox (15.0pt too wide) in paragraph at lines 192--193
 [][] 
  []
 
-[8 <./Figura1.png>] [9 <./Figura2.png>] [10] (./Equipo2_WebAPISecurityScanner.aux
+[8 <./Figura1.png>] [9 <./Figura2.png>] [10]
+<Demo8.jpg, id=57, 983.675pt x 560.0925pt>
+File: Demo8.jpg Graphic file (type jpg)
+<use Demo8.jpg>
+Package pdftex.def Info: Demo8.jpg  used on input line 214.
+(pdftex.def)             Requested size: 165.2138pt x 94.06926pt.
+<Demo7.jpg, id=58, 975.645pt x 550.055pt>
+File: Demo7.jpg Graphic file (type jpg)
+<use Demo7.jpg>
+Package pdftex.def Info: Demo7.jpg  used on input line 220.
+(pdftex.def)             Requested size: 165.2138pt x 93.13881pt.
+<Demo6.jpg, id=59, 971.63pt x 548.0475pt>
+File: Demo6.jpg Graphic file (type jpg)
+<use Demo6.jpg>
+Package pdftex.def Info: Demo6.jpg  used on input line 226.
+(pdftex.def)             Requested size: 165.2138pt x 93.18356pt.
+<Demo5.jpg, id=60, 982.67125pt x 550.055pt>
+File: Demo5.jpg Graphic file (type jpg)
+<use Demo5.jpg>
+Package pdftex.def Info: Demo5.jpg  used on input line 232.
+(pdftex.def)             Requested size: 165.2138pt x 92.47575pt.
+<Demo4.jpg, id=61, 976.64874pt x 560.0925pt>
+File: Demo4.jpg Graphic file (type jpg)
+<use Demo4.jpg>
+Package pdftex.def Info: Demo4.jpg  used on input line 238.
+(pdftex.def)             Requested size: 165.2138pt x 94.74442pt.
+<Demo3.jpg, id=62, 977.6525pt x 556.0775pt>
+File: Demo3.jpg Graphic file (type jpg)
+<use Demo3.jpg>
+Package pdftex.def Info: Demo3.jpg  used on input line 244.
+(pdftex.def)             Requested size: 165.2138pt x 93.97191pt.
+<Demo2.jpg, id=63, 977.6525pt x 548.0475pt>
+File: Demo2.jpg Graphic file (type jpg)
+<use Demo2.jpg>
+Package pdftex.def Info: Demo2.jpg  used on input line 250.
+(pdftex.def)             Requested size: 165.2138pt x 92.61491pt.
+<Demo1.jpg, id=64, 986.68625pt x 549.05125pt>
+File: Demo1.jpg Graphic file (type jpg)
+<use Demo1.jpg>
+Package pdftex.def Info: Demo1.jpg  used on input line 256.
+(pdftex.def)             Requested size: 165.2138pt x 91.93pt.
+ [11 <./Demo8.jpg> <./Demo7.jpg> <./Demo6.jpg> <./Demo5.jpg> <./Demo4.jpg> <./Demo3.jpg> <./Demo2.jpg> <./Demo1.jpg>] [12] (./Equipo2_WebAPISecurityScanner.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 )
@@ -373,18 +414,18 @@ L3 programming layer <2024-02-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 7684 strings out of 474116
- 130390 string characters out of 5743683
+ 7754 strings out of 474116
+ 131557 string characters out of 5743683
  1937187 words of memory out of 5000000
- 29950 multiletter control sequences out of 15000+600000
- 583146 words of font info for 60 fonts, out of 8000000 for 9000
+ 30019 multiletter control sequences out of 15000+600000
+ 586192 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,11n,117p,1059b,365s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 69i,11n,117p,1059b,595s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/urw/avantgar/uagd8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/avantgar/uagk8a.pfb>
-Output written on Equipo2_WebAPISecurityScanner.pdf (10 pages, 646876 bytes).
+Output written on Equipo2_WebAPISecurityScanner.pdf (12 pages, 913638 bytes).
 PDF statistics:
- 69 PDF objects out of 1000 (max. 8388607)
- 40 compressed objects within 1 object stream
+ 83 PDF objects out of 1000 (max. 8388607)
+ 44 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
 
